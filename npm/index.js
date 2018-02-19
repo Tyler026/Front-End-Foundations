@@ -1,8 +1,16 @@
-// Functions
+// Let
 
-function totalPrice(sqEdge, pricePerSqft = 100) {
-    let result = (sqEdge * pricePerSqft) * 10;
-    console.log(result);
-}
 
-totalPrice(10);
+    let day = 26;
+    let month = "February";
+    let year = 1986;
+
+    let myBirthday = month + ' ' + day + ',' + ' ' + year;
+        
+
+
+    console.log(myBirthday);
+
+
+
+
